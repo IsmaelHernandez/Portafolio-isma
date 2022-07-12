@@ -87,19 +87,15 @@
           <img class="imgRedonda mb-5" src="assets/img/2022-01-19.jpg" alt="..." />
           <!-- Masthead Heading-->
           <div class="hero__contenedor">
-            <h1 class="hero__titulo">Hola, soy <span>Jesús</span> 🤘🏻</h1>
+            <h1 class="hero__titulo">Hola, soy <span>Ismael</span> 🤘🏻</h1>
             <h2 class="hero__subtitulo">Desarrollador web</h2>
-            <p class="hero__texto">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae eius assumenda illo quis
-              accusantium quos distinctio laudantium! Quas nihil earum explicabo facilis atque, cum optio voluptate vero
-              soluta! Fugiat, itaque.</p>
           </div>
       </div>
   </header>
     <!-- Sobre mi Section-->
     <section class="page-section portfolio" id="sobremi">
       <div class="container">
-        <h1>aqui va sobre mi jajaja</h1>
-        <span id="kt_typedjs_example_1" class="fs-1 fw-bolder"></span>
+        <h1 id="typed" class="typed"></h1>
       </div>
     </section>
     <!-- Habilidades Section-->
@@ -276,6 +272,7 @@
     <section class="page-section" id="contact">
       <div class="container">
         <!-- Contact Section Heading-->
+
         <h2
           class="page-section-heading text-center text-uppercase text-secondary mb-0"
         >
@@ -283,9 +280,6 @@
         </h2>
         <!-- Icon Divider-->
         <div class="divider-custom">
-          <div class="divider-custom-line"></div>
-          <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-          <div class="divider-custom-line"></div>
         </div>
         <!-- Contact Section Form-->
         <div class="row justify-content-center">
@@ -395,7 +389,7 @@
       <div class="container">
         <div class="row">
           <!-- Footer Location-->
-          <div class="col-lg-4 mb-5 mb-lg-0">
+          <div class="col-lg-6 mb-5 mb-lg-0">
             <h4 class="text-uppercase mb-4">Ubicacion</h4>
             <p class="lead mb-0">
               Mexico
@@ -404,23 +398,20 @@
             </p>
           </div>
           <!-- Footer Social Icons-->
-          <div class="col-lg-4 mb-5 mb-lg-0">
+          <div class="col-lg-6 mb-5 mb-lg-0">
             <h4 class="text-uppercase mb-4">Redes Sociales</h4>
-            <a class="btn btn-outline-light btn-social mx-1" href="#!"
+            <a class="btn btn-outline-light btn-social mx-1" href="https://www.facebook.com/ismael.hernandezcarreon/"
               ><i class="fab fa-fw fa-facebook-f"></i
             ></a>
-            <a class="btn btn-outline-light btn-social mx-1" href="#!"
-              ><i class="fab fa-fw fa-twitter"></i
-            ></a>
-            <a class="btn btn-outline-light btn-social mx-1" href="#!"
+            <a class="btn btn-outline-light btn-social mx-1" href="https://my.indeed.com/resume?hl=es&co=MX&from=gnav-homepage&_ga=2.139939707.91407856.1657591842-213695888.1657591842"
               ><i class="fab fa-fw fa-linkedin-in"></i
             ></a>
-            <a class="btn btn-outline-light btn-social mx-1" href="#!"
-              ><i class="fab fa-fw fa-dribbble"></i
-            ></a>
+            <a class="btn btn-outline-light btn-social mx-1" href="https://github.com/IsmaelHernandez"
+              ><i class="fa-brands fa-github"></i>
+            </a>
           </div>
           <!-- Footer About Text-->
-          <div class="col-lg-4">
+          <!-- <div class="col-lg-4">
             <h4 class="text-uppercase mb-4">About Freelancer</h4>
             <p class="lead mb-0">
               Freelance is a free to use, MIT licensed Bootstrap theme created
@@ -428,7 +419,7 @@
               <a href="http://startbootstrap.com">Start Bootstrap</a>
               .
             </p>
-          </div>
+          </div> -->
         </div>
       </div>
     </footer>
@@ -820,7 +811,15 @@
       });
     </script>
     <script src="js/scripts.js"></script>
-    <script src="js/escrito.js"></script>
-    <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+   <script src="js/typed.js"></script>
+   <script>
+     var typed = new Typed('#typed', {
+      strings: [
+        'Hola soy Desarrollador web y me apasiona el echo de resolver',
+        'problemas '
+    ],
+      typeSpeed: 30, 
+    });
+   </script>
   </body>
 </html>
