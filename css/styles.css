@@ -328,6 +328,7 @@ th {
   border-color: inherit;
   border-style: solid;
   border-width: 0;
+  color: #2c3e50 !important;
 }
 
 label {
@@ -2246,9 +2247,9 @@ a {
   --bs-table-hover-bg: rgba(0, 0, 0, 0.075);
   width: 100%;
   margin-bottom: 1rem;
-  color: #212529;
+  color: #2c3e50;
   vertical-align: top;
-  border-color: #dee2e6;
+  border-color: #2c3e50;
 }
 .table > :not(caption) > * > * {
   padding: 0.5rem 0.5rem;
@@ -7173,7 +7174,7 @@ textarea.form-control-lg {
 }
 
 .border-success {
-  border-color: #198754 !important;
+  border-color: #1abc9c !important;
 }
 
 .border-info {
@@ -11785,3 +11786,20 @@ html {
 .copyright {
   background-color: #1a252f;
 }
+
+.card2 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #1abc9c;
+  background-clip: border-box;
+  border: 0.125rem solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.5rem;
+}
+
+.thtableresposive {
+  color: #2c3e50;
+}
+
