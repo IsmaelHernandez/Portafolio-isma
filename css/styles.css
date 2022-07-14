@@ -7177,6 +7177,10 @@ textarea.form-control-lg {
   border-color: #1abc9c !important;
 }
 
+.border-gris {
+  border-color: #2c3e50 !important;
+}
+
 .border-info {
   border-color: #0dcaf0 !important;
 }
@@ -11794,6 +11798,18 @@ html {
   min-width: 0;
   word-wrap: break-word;
   background-color: #1abc9c;
+  background-clip: border-box;
+  border: 0.125rem solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.5rem;
+}
+
+.cardSobre {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #000;
   background-clip: border-box;
   border: 0.125rem solid rgba(0, 0, 0, 0.125);
   border-radius: 0.5rem;
