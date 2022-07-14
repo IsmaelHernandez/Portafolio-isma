@@ -11819,3 +11819,10 @@ html {
   color: #2c3e50;
 }
 
+@media (min-width: 375px) {
+
+  body{
+    width: 27rem;
+  }
+
+}
